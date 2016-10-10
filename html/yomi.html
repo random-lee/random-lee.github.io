@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Recomendation Demo</title>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.box{
+    display: inline-block;
+    width: 18%;
+    background-color: lavender;
+    border: solid 1px silver;
+}
+</style>
+</head>
+<body>
+<h1>recommendations for: Yomi</h1><section class="row">
+  <div class="container">
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: 2 Player
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Le havre: the inland port</td>
+          <td>11</td>
+          <td>B</td>
+          <td>2</td>
+          <td>2</td>
+          <td>30</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Neuroshima: convoy</td>
+          <td>3</td>
+          <td>E</td>
+          <td>2</td>
+          <td>2</td>
+          <td>30</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Mr. jack: extension</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>2</td>
+          <td>30</td>
+          <td>2007</td>
+        </tr>
+        <tr>
+          <td>Kamisado</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>2</td>
+          <td>2</td>
+          <td>20</td>
+          <td>2008</td>
+        </tr>
+        <tr>
+          <td>Mr. jack</td>
+          <td>11</td>
+          <td>C</td>
+          <td>2</td>
+          <td>2</td>
+          <td>30</td>
+          <td>2006</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/InlandPort.jpg" alt="le-havre-the-inland-port" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/NeuroConv.jpg" alt="the-convoy" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Mr_Jack-Extension.jpg" alt="mr.-jack-extension" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/kamisado.jpg" alt="kamisado" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Mr_Jack.jpg" alt="mr.-jack" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Card and Dice
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Neuroshima: convoy</td>
+          <td>3</td>
+          <td>E</td>
+          <td>2</td>
+          <td>2</td>
+          <td>30</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>8 masters’ revenge</td>
+          <td>26</td>
+          <td>E</td>
+          <td>1</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2013</td>
+        </tr>
+        <tr>
+          <td>Oh my goods!</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2016</td>
+        </tr>
+        <tr>
+          <td>Thebes: the tomb raiders</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Summoner wars: phoenix elves vs. tundra orcs</td>
+          <td>11</td>
+          <td>F</td>
+          <td>2</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2009</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/NeuroConv.jpg" alt="the-convoy" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/8Masters.jpg" alt="8-masters-revenge" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/ohmygoods.jpg" alt="oh-my-goods" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Thebes-Tomb_Raiders.jpg" alt="thebes-the-tomb-raiders" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Summoner_Wars-Phoenix_Elves_vs_Tundra_Orcs.jpg" alt="summoner-wars-phoenix-elves-vs.-tundra-orcs" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Bluffing
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Havana</td>
+          <td>16</td>
+          <td>B</td>
+          <td>2</td>
+          <td>4</td>
+          <td>45</td>
+          <td>2009</td>
+        </tr>
+        <tr>
+          <td>Histrio</td>
+          <td>NR</td>
+          <td>NR</td>
+          <td>2</td>
+          <td>4</td>
+          <td>40</td>
+          <td>2016</td>
+        </tr>
+        <tr>
+          <td>Vampire empire</td>
+          <td>8</td>
+          <td>F</td>
+          <td>2</td>
+          <td>2</td>
+          <td>30</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Apotheca</td>
+          <td>-</td>
+          <td>-</td>
+          <td>1</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2016</td>
+        </tr>
+        <tr>
+          <td>Broom service</td>
+          <td>22</td>
+          <td>B</td>
+          <td>2</td>
+          <td>5</td>
+          <td>60</td>
+          <td>2015</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Havana.jpg" alt="havana" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Histrio.png" alt="histrio" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/VampireEmpire.jpg" alt="vampire-empire" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Apotheca.jpg" alt="apotheca" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/BroomService.jpg" alt="broom-service" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Card
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Neuroshima: convoy</td>
+          <td>3</td>
+          <td>E</td>
+          <td>2</td>
+          <td>2</td>
+          <td>30</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Oh my goods!</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2016</td>
+        </tr>
+        <tr>
+          <td>8 masters’ revenge</td>
+          <td>26</td>
+          <td>E</td>
+          <td>1</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2013</td>
+        </tr>
+        <tr>
+          <td>Corto</td>
+          <td>17</td>
+          <td>F</td>
+          <td>2</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>Puzzle strike</td>
+          <td>20</td>
+          <td>F</td>
+          <td>2</td>
+          <td>4</td>
+          <td>20</td>
+          <td>2012</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/NeuroConv.jpg" alt="the-convoy" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/ohmygoods.jpg" alt="oh-my-goods" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/8Masters.jpg" alt="8-masters-revenge" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Corto.jpg" alt="corto" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Puzzle_Strike.jpg" alt="puzzle-strike" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Fantasy
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Oddville</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>4</td>
+          <td>45</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Broom service</td>
+          <td>22</td>
+          <td>B</td>
+          <td>2</td>
+          <td>5</td>
+          <td>60</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Blue moon city</td>
+          <td>5</td>
+          <td>F</td>
+          <td>2</td>
+          <td>4</td>
+          <td>60</td>
+          <td>2006</td>
+        </tr>
+        <tr>
+          <td>Magic: the gathering – arena of the planeswalkers</td>
+          <td>5</td>
+          <td>B</td>
+          <td>2</td>
+          <td>5</td>
+          <td>60</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Puzzle strike</td>
+          <td>20</td>
+          <td>F</td>
+          <td>2</td>
+          <td>4</td>
+          <td>20</td>
+          <td>2012</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <div class="box"> No image</div>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/BroomService.jpg" alt="broom-service" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Blue_Moon_City.jpg" alt="blue-moon-city" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/MagicBG.jpg" alt="magic-the-gathering-arena-of-the-planeswalkers" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Puzzle_Strike.jpg" alt="puzzle-strike" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Fighting
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Ogre: pocket edition</td>
+          <td>3</td>
+          <td>B</td>
+          <td>2</td>
+          <td>3</td>
+          <td>45</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>Ascending empires</td>
+          <td>9</td>
+          <td>D</td>
+          <td>2</td>
+          <td>4</td>
+          <td>75</td>
+          <td>2011</td>
+        </tr>
+        <tr>
+          <td>The dragon & flagon</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>8</td>
+          <td>60</td>
+          <td>2016</td>
+        </tr>
+        <tr>
+          <td>Neuroshima: convoy</td>
+          <td>3</td>
+          <td>E</td>
+          <td>2</td>
+          <td>2</td>
+          <td>30</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>8 masters’ revenge</td>
+          <td>26</td>
+          <td>E</td>
+          <td>1</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2013</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Ogre.jpg" alt="ogre-pocket-edition" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Ascending_Empires.jpg" alt="ascending-empires" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/DragonFlagon.jpg" alt="the-dragon-flagon" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/NeuroConv.jpg" alt="the-convoy" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/8Masters.jpg" alt="8-masters-revenge" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            All related game types
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>The rivals for catan</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>2</td>
+          <td>45</td>
+          <td>2010</td>
+        </tr>
+        <tr>
+          <td>Ogre: pocket edition</td>
+          <td>3</td>
+          <td>B</td>
+          <td>2</td>
+          <td>3</td>
+          <td>45</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>Oddville</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>4</td>
+          <td>45</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Broom service</td>
+          <td>22</td>
+          <td>B</td>
+          <td>2</td>
+          <td>5</td>
+          <td>60</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Blue moon city</td>
+          <td>5</td>
+          <td>F</td>
+          <td>2</td>
+          <td>4</td>
+          <td>60</td>
+          <td>2006</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Rivals_for_Catan.jpg" alt="the-rivals-for-catan" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Ogre.jpg" alt="ogre-pocket-edition" style="width:18%;">
+    <div class="box"> No image</div>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/BroomService.jpg" alt="broom-service" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Blue_Moon_City.jpg" alt="blue-moon-city" style="width:18%;">
+  </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Recomendation Demo</title>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.box{
+    display: inline-block;
+    width: 18%;
+    background-color: lavender;
+    border: solid 1px silver;
+}
+</style>
+</head>
+<body>
+<h1>recommendations for: The witcher adventure game</h1><section class="row">
+  <div class="container">
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Adventure
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Fortress america</td>
+          <td>21</td>
+          <td>E</td>
+          <td>2</td>
+          <td>4</td>
+          <td>150</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Spartacus: a game of blood & treachery</td>
+          <td>17</td>
+          <td>F</td>
+          <td>3</td>
+          <td>4</td>
+          <td>150</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Lords of xidit</td>
+          <td>20</td>
+          <td>B</td>
+          <td>3</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>Horus heresy</td>
+          <td>ATS</td>
+          <td>ATS</td>
+          <td>2</td>
+          <td>2</td>
+          <td>135</td>
+          <td>2010</td>
+        </tr>
+        <tr>
+          <td>Blood bowl: team manager – the card game</td>
+          <td>6</td>
+          <td>C</td>
+          <td>2</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2011</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Fortress_America.jpg" alt="fortress-america" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Spartacus.jpg" alt="spartacus-a-game-of-blood-treachery" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Xidit.jpg" alt="lords-of-xidit" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Horus_Heresy.jpg" alt="horus-heresy" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Blood_Bowl_Team_Manager.jpg" alt="blood-bowl-team-manager-the-card-game" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Fantasy
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>The world of smog: on her majesty’s service</td>
+          <td>22</td>
+          <td>F</td>
+          <td>2</td>
+          <td>4</td>
+          <td>60</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>The lord of the rings: the fellowship of the ring deck-building game</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>5</td>
+          <td>30</td>
+          <td>2013</td>
+        </tr>
+        <tr>
+          <td>King’s forge</td>
+          <td>21</td>
+          <td>B</td>
+          <td>2</td>
+          <td>4</td>
+          <td>60</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Lords of xidit</td>
+          <td>20</td>
+          <td>B</td>
+          <td>3</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>Sky traders</td>
+          <td>14</td>
+          <td>C</td>
+          <td>2</td>
+          <td>5</td>
+          <td>180</td>
+          <td>2012</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/SMOG.jpg" alt="the-world-of-smog-on-her-majestys-service" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/LOTR_Deck_building.jpg" alt="the-lord-of-the-rings-the-fellowship-of-the-ring-deck-building-game" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/KingsForge.jpg" alt="kings-forge" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Xidit.jpg" alt="lords-of-xidit" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Sky_Traders.jpg" alt="sky-traders" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Novel-based
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Elder sign: unseen forces</td>
+          <td>-</td>
+          <td>-</td>
+          <td>1</td>
+          <td>8</td>
+          <td>90</td>
+          <td>2013</td>
+        </tr>
+        <tr>
+          <td>The battle of five armies</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>2</td>
+          <td>90</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>Illuminati</td>
+          <td>1</td>
+          <td>K</td>
+          <td>2</td>
+          <td>6</td>
+          <td>120</td>
+          <td>1982</td>
+        </tr>
+        <tr>
+          <td>A study in emerald (second edition)</td>
+          <td>8</td>
+          <td>B</td>
+          <td>2</td>
+          <td>5</td>
+          <td>90</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Elder sign</td>
+          <td>8</td>
+          <td>B</td>
+          <td>1</td>
+          <td>8</td>
+          <td>90</td>
+          <td>2011</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Unseen.jpg" alt="elder-sign-unseen-forces" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/BattleFiveArmies.jpg" alt="the-battle-of-five-armies" style="width:18%;">
+    <div class="box"> No image</div>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/StudyEm.jpg" alt="a-study-in-emerald" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Elder_Sign.jpg" alt="elder-sign" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Travel
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Firefly: the game</td>
+          <td>10</td>
+          <td>B</td>
+          <td>1</td>
+          <td>4</td>
+          <td>120</td>
+          <td>2013</td>
+        </tr>
+        <tr>
+          <td>Cornish smuggler</td>
+          <td>17</td>
+          <td>A</td>
+          <td>2</td>
+          <td>5</td>
+          <td>120</td>
+          <td>2013</td>
+        </tr>
+        <tr>
+          <td>504</td>
+          <td>NR</td>
+          <td>NR</td>
+          <td>2</td>
+          <td>4</td>
+          <td>120</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Orléans</td>
+          <td>25</td>
+          <td>B</td>
+          <td>2</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Lifeboat</td>
+          <td>3</td>
+          <td>A</td>
+          <td>4</td>
+          <td>6</td>
+          <td>60</td>
+          <td>2002</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Firefly.png" alt="firefly" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/CornishSmug.jpg" alt="cornish-smuggler" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/504.jpg" alt="fiveofour" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Orleans.jpg" alt="orleans" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Lifeboat.jpg" alt="lifeboat" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Video Theme
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>The king’s armory</td>
+          <td>-</td>
+          <td>-</td>
+          <td>1</td>
+          <td>7</td>
+          <td>120</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>The battle at kemble’s cascade</td>
+          <td>9</td>
+          <td>F</td>
+          <td>2</td>
+          <td>5</td>
+          <td>75</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>Super motherload</td>
+          <td>10</td>
+          <td>D</td>
+          <td>2</td>
+          <td>4</td>
+          <td>75</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Bioshock infinite: the siege of columbia</td>
+          <td>4</td>
+          <td>E</td>
+          <td>2</td>
+          <td>4</td>
+          <td>60</td>
+          <td>2013</td>
+        </tr>
+        <tr>
+          <td>Anno 1503</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2003</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/KingsArm.jpg" alt="the-kings-armory" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Kemble.jpg" alt="the-battle-at-kembles-cascade" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/SuperML.jpg" alt="super-motherload" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Bioshock_Infinite.jpg" alt="bioshock-infinite-the-siege-of-columbia" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Anno_1503.jpg" alt="anno-1503" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            All related game types
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Alcatraz: the scapegoat</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>3</td>
+          <td>4</td>
+          <td>60</td>
+          <td>2011</td>
+        </tr>
+        <tr>
+          <td>3012 deck building game</td>
+          <td>6</td>
+          <td>E</td>
+          <td>2</td>
+          <td>4</td>
+          <td>60</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Fortress america</td>
+          <td>21</td>
+          <td>E</td>
+          <td>2</td>
+          <td>4</td>
+          <td>150</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Penny arcade: the game – gamers vs. evil</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>2</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2011</td>
+        </tr>
+        <tr>
+          <td>Capcom street fighter deck-building game</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>5</td>
+          <td>45</td>
+          <td>2014</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Alcatraz.jpg" alt="alcatraz-the-scapegoat" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/3012.jpg" alt="3012-deck-building-game" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Fortress_America.jpg" alt="fortress-america" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Penny_Arcade-The_Game.jpg" alt="penny-arcade-the-game-gamers-vs.-evil" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/CapComSFig.jpg" alt="capcom-street-fighter-deck-building-game" style="width:18%;">
+  </div>
+</section>
+</body>
+</html>

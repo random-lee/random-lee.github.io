@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Recomendation Demo</title>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.box{
+    display: inline-block;
+    width: 18%;
+    background-color: lavender;
+    border: solid 1px silver;
+}
+</style>
+</head>
+<body>
+<h1>recommendations for: Hold your breath!</h1><section class="row">
+  <div class="container">
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Card and Dice
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Frankendie</td>
+          <td>1</td>
+          <td>H</td>
+          <td>3</td>
+          <td>6</td>
+          <td>15</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Prrrt…</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>2</td>
+          <td>7</td>
+          <td>15</td>
+          <td>2011</td>
+        </tr>
+        <tr>
+          <td>The hobbit: enchanted gold</td>
+          <td>4</td>
+          <td>A</td>
+          <td>2</td>
+          <td>2</td>
+          <td>30</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>Sequence</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>12</td>
+          <td>10</td>
+          <td>2004</td>
+        </tr>
+        <tr>
+          <td>Catan dice game (deluxe edition)</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>1</td>
+          <td>4</td>
+          <td>15</td>
+          <td>2007</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/FrankenDie.jpg" alt="frankendie" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/PRRRT.jpg" alt="prrrt" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/HobbitEnchant.jpg" alt="the-hobbit-enchanted-gold" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Sequence.jpg" alt="sequence" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/CatanDice.jpg" alt="catan-dice-game" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Light Strategy
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Why first?</td>
+          <td>31</td>
+          <td>F</td>
+          <td>2</td>
+          <td>6</td>
+          <td>20</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>String safari</td>
+          <td>27</td>
+          <td>C</td>
+          <td>3</td>
+          <td>5</td>
+          <td>30</td>
+          <td>2013</td>
+        </tr>
+        <tr>
+          <td>Catan dice game (deluxe edition)</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>1</td>
+          <td>4</td>
+          <td>15</td>
+          <td>2007</td>
+        </tr>
+        <tr>
+          <td>Hengist</td>
+          <td>11</td>
+          <td>C</td>
+          <td>2</td>
+          <td>2</td>
+          <td>20</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Sequence</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>12</td>
+          <td>10</td>
+          <td>2004</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/WhyFirst.jpg" alt="why-first" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/StringSafariF.jpg" alt="string-safari" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/CatanDice.jpg" alt="catan-dice-game" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Hengist.jpg" alt="hengist" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Sequence.jpg" alt="sequence" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Card
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Pig panic (aka schweine bammel)</td>
+          <td>1</td>
+          <td>F</td>
+          <td>2</td>
+          <td>8</td>
+          <td>20</td>
+          <td>2008</td>
+        </tr>
+        <tr>
+          <td>The hobbit: enchanted gold</td>
+          <td>4</td>
+          <td>A</td>
+          <td>2</td>
+          <td>2</td>
+          <td>30</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>Prrrt…</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>2</td>
+          <td>7</td>
+          <td>15</td>
+          <td>2011</td>
+        </tr>
+        <tr>
+          <td>Fish fish</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>2</td>
+          <td>8</td>
+          <td>20</td>
+          <td>2013</td>
+        </tr>
+        <tr>
+          <td>Hubbly bubbly brew</td>
+          <td>3</td>
+          <td>J</td>
+          <td>2</td>
+          <td>4</td>
+          <td>15</td>
+          <td>2012</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Pig_Panic.jpg" alt="pig-panic-aka-schweine-bammel" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/HobbitEnchant.jpg" alt="the-hobbit-enchanted-gold" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/PRRRT.jpg" alt="prrrt" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/FishFish.jpg" alt="fish-fish" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Hubbly_Bubbly_Brew.jpg" alt="hubbly-bubbly-brew" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Children's
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Pig panic (aka schweine bammel)</td>
+          <td>1</td>
+          <td>F</td>
+          <td>2</td>
+          <td>8</td>
+          <td>20</td>
+          <td>2008</td>
+        </tr>
+        <tr>
+          <td>The little prince: rising to the stars</td>
+          <td>32</td>
+          <td>B</td>
+          <td>2</td>
+          <td>6</td>
+          <td>20</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Birds on a wire</td>
+          <td>16</td>
+          <td>A</td>
+          <td>2</td>
+          <td>5</td>
+          <td>-</td>
+          <td>2009</td>
+        </tr>
+        <tr>
+          <td>The hobbit: an unexpected journey</td>
+          <td>4</td>
+          <td>A</td>
+          <td>2</td>
+          <td>4</td>
+          <td>15</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Fish fish</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>2</td>
+          <td>8</td>
+          <td>20</td>
+          <td>2013</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Pig_Panic.jpg" alt="pig-panic-aka-schweine-bammel" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/LPRising.jpg" alt="the-little-prince-rising-to-the-stars" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Birds_on_a_Wire.jpg" alt="birds-on-a-wire" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/The_Hobbit-An_Unexpected_Journey.jpg" alt="the-hobbit-an-unexpected-journey" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/FishFish.jpg" alt="fish-fish" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Humor
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Frankendie</td>
+          <td>1</td>
+          <td>H</td>
+          <td>3</td>
+          <td>6</td>
+          <td>15</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Cockroach soup (a.k.a. kakerlakensuppe)</td>
+          <td>1</td>
+          <td>F</td>
+          <td>2</td>
+          <td>6</td>
+          <td>15</td>
+          <td>2008</td>
+        </tr>
+        <tr>
+          <td>Poo: the card game</td>
+          <td>2</td>
+          <td>D</td>
+          <td>2</td>
+          <td>8</td>
+          <td>15</td>
+          <td>2009</td>
+        </tr>
+        <tr>
+          <td>Cockroach salad (a.k.a. kakerlakensalat)</td>
+          <td>1</td>
+          <td>F</td>
+          <td>2</td>
+          <td>6</td>
+          <td>15</td>
+          <td>2007</td>
+        </tr>
+        <tr>
+          <td>Buzz it!</td>
+          <td>33</td>
+          <td>C</td>
+          <td>3</td>
+          <td>15</td>
+          <td>30</td>
+          <td>2010</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/FrankenDie.jpg" alt="frankendie" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Kakerlakensuppe.jpg" alt="kakerlakensuppe" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Poo-The_Card_Game.jpg" alt="poo-the-card-game" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Kakerlakensalat.jpg" alt="kakerlakensalat" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Buzz_It.jpg" alt="buzz-it" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Nautical
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Capt’n clever</td>
+          <td>-</td>
+          <td>-</td>
+          <td>3</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2003</td>
+        </tr>
+        <tr>
+          <td>Piratissimo</td>
+          <td>30</td>
+          <td>D</td>
+          <td>2</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2016</td>
+        </tr>
+        <tr>
+          <td>Up the river</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>4</td>
+          <td>15</td>
+          <td>1988</td>
+        </tr>
+        <tr>
+          <td>Battleship: the card game</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>2</td>
+          <td>20</td>
+          <td>2002</td>
+        </tr>
+        <tr>
+          <td>Pirateer</td>
+          <td>16</td>
+          <td>F</td>
+          <td>2</td>
+          <td>4</td>
+          <td>15</td>
+          <td>1978</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Captn_Clever.jpg" alt="captn-clever" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Piratissimo16.jpg" alt="piratissimo" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Up_the_River.jpg" alt="up-the-river" style="width:18%;">
+    <div class="box"> No image</div>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Pirateer.jpg" alt="pirateer" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Pirates
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Piratissimo</td>
+          <td>30</td>
+          <td>D</td>
+          <td>2</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2016</td>
+        </tr>
+        <tr>
+          <td>Black cannon</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>4</td>
+          <td>30</td>
+          <td>1986</td>
+        </tr>
+        <tr>
+          <td>Piña pirata</td>
+          <td>16</td>
+          <td>F</td>
+          <td>2</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>Catan junior</td>
+          <td>31</td>
+          <td>B</td>
+          <td>2</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Pirateer</td>
+          <td>16</td>
+          <td>F</td>
+          <td>2</td>
+          <td>4</td>
+          <td>15</td>
+          <td>1978</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Piratissimo16.jpg" alt="piratissimo" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Black_Cannon.jpg" alt="black-cannon" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/PinaPirata.jpg" alt="pina-pirata" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Catan_Junior.jpg" alt="catan-junior" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Pirateer.jpg" alt="pirateer" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            All related game types
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Pig panic (aka schweine bammel)</td>
+          <td>1</td>
+          <td>F</td>
+          <td>2</td>
+          <td>8</td>
+          <td>20</td>
+          <td>2008</td>
+        </tr>
+        <tr>
+          <td>Spiegel spukschloss</td>
+          <td>31</td>
+          <td>A</td>
+          <td>2</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Frankendie</td>
+          <td>1</td>
+          <td>H</td>
+          <td>3</td>
+          <td>6</td>
+          <td>15</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>The little prince: rising to the stars</td>
+          <td>32</td>
+          <td>B</td>
+          <td>2</td>
+          <td>6</td>
+          <td>20</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>The hobbit: enchanted gold</td>
+          <td>4</td>
+          <td>A</td>
+          <td>2</td>
+          <td>2</td>
+          <td>30</td>
+          <td>2014</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Pig_Panic.jpg" alt="pig-panic-aka-schweine-bammel" style="width:18%;">
+    <div class="box"> No image</div>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/FrankenDie.jpg" alt="frankendie" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/LPRising.jpg" alt="the-little-prince-rising-to-the-stars" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/HobbitEnchant.jpg" alt="the-hobbit-enchanted-gold" style="width:18%;">
+  </div>
+</section>
+</body>
+</html>

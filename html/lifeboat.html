@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Recomendation Demo</title>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.box{
+    display: inline-block;
+    width: 18%;
+    background-color: lavender;
+    border: solid 1px silver;
+}
+</style>
+</head>
+<body>
+<h1>recommendations for: Lifeboat</h1><section class="row">
+  <div class="container">
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Party
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Barbarossa</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>3</td>
+          <td>6</td>
+          <td>60</td>
+          <td>1988</td>
+        </tr>
+        <tr>
+          <td>Let them eat cake</td>
+          <td>-</td>
+          <td>-</td>
+          <td>3</td>
+          <td>6</td>
+          <td>60</td>
+          <td>2016</td>
+        </tr>
+        <tr>
+          <td>Cranium</td>
+          <td>37</td>
+          <td>A</td>
+          <td>4</td>
+          <td>16</td>
+          <td>60</td>
+          <td>1998</td>
+        </tr>
+        <tr>
+          <td>The red dragon inn 4</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>2</td>
+          <td>4</td>
+          <td>60</td>
+          <td>2013</td>
+        </tr>
+        <tr>
+          <td>The red dragon inn</td>
+          <td>7</td>
+          <td>E</td>
+          <td>2</td>
+          <td>4</td>
+          <td>45</td>
+          <td>2007</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Barbarossa.jpg" alt="barbarossa" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/EatCake.jpg" alt="let-them-eat-cake" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Cranium.jpg" alt="cranium" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/RedDragonInn4.jpg" alt="red-dragon-inn-4" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/The_Red_Dragon_Inn.jpg" alt="the-red-dragon-inn" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Bluffing
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Shadow hunters</td>
+          <td>36</td>
+          <td>B</td>
+          <td>4</td>
+          <td>8</td>
+          <td>45</td>
+          <td>2011</td>
+        </tr>
+        <tr>
+          <td>New salem</td>
+          <td>36</td>
+          <td>C</td>
+          <td>3</td>
+          <td>8</td>
+          <td>45</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Fair means or foul</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>2</td>
+          <td>5</td>
+          <td>45</td>
+          <td>1990</td>
+        </tr>
+        <tr>
+          <td>Scalawag!</td>
+          <td>16</td>
+          <td>E</td>
+          <td>3</td>
+          <td>8</td>
+          <td>30</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>Arcana</td>
+          <td>5</td>
+          <td>C</td>
+          <td>2</td>
+          <td>4</td>
+          <td>60</td>
+          <td>2009</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/ShadowHunt.jpg" alt="shadow-hunters" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/NewSalem.jpg" alt="new-salem" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Fair_Means_or_Foul.jpg" alt="fair-means-or-foul" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Scalawag.jpg" alt="scalawag" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Arcana.jpg" alt="arcana" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Card
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Cthulhu gloom</td>
+          <td>3</td>
+          <td>D</td>
+          <td>2</td>
+          <td>5</td>
+          <td>60</td>
+          <td>2011</td>
+        </tr>
+        <tr>
+          <td>Gloom: unhappy homes (2nd edition)</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>5</td>
+          <td>60</td>
+          <td>2005</td>
+        </tr>
+        <tr>
+          <td>Gloom: unfortunate expeditions (2nd edition)</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>5</td>
+          <td>60</td>
+          <td>2009</td>
+        </tr>
+        <tr>
+          <td>Gloom: unwelcome guests (2nd edition)</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>5</td>
+          <td>60</td>
+          <td>2006</td>
+        </tr>
+        <tr>
+          <td>Dominant species: the card game</td>
+          <td>14</td>
+          <td>D</td>
+          <td>2</td>
+          <td>6</td>
+          <td>60</td>
+          <td>2012</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Cthulhu_Gloom.jpg" alt="cthulhu-gloom" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/GloomUH2.jpg" alt="gloom-unhappy-homes" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/GloomUE2.jpg" alt="gloom-unfortunate-expeditions" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/GloomEG2.jpg" alt="gloom-unwelcome-guests" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Dominant_Species_card_game.jpg" alt="dominant-species-the-card-game" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Humor
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Gloom: unhappy homes (2nd edition)</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>5</td>
+          <td>60</td>
+          <td>2005</td>
+        </tr>
+        <tr>
+          <td>Gloom: unfortunate expeditions (2nd edition)</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>5</td>
+          <td>60</td>
+          <td>2009</td>
+        </tr>
+        <tr>
+          <td>Gloom: unwelcome guests (2nd edition)</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>5</td>
+          <td>60</td>
+          <td>2006</td>
+        </tr>
+        <tr>
+          <td>Barbarossa</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>3</td>
+          <td>6</td>
+          <td>60</td>
+          <td>1988</td>
+        </tr>
+        <tr>
+          <td>The red dragon inn</td>
+          <td>7</td>
+          <td>E</td>
+          <td>2</td>
+          <td>4</td>
+          <td>45</td>
+          <td>2007</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/GloomUH2.jpg" alt="gloom-unhappy-homes" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/GloomUE2.jpg" alt="gloom-unfortunate-expeditions" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/GloomEG2.jpg" alt="gloom-unwelcome-guests" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Barbarossa.jpg" alt="barbarossa" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/The_Red_Dragon_Inn.jpg" alt="the-red-dragon-inn" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Nautical
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Pirate dice: voyage on the rolling seas</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>4</td>
+          <td>45</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Red november</td>
+          <td>ATS</td>
+          <td>ATS</td>
+          <td>1</td>
+          <td>8</td>
+          <td>60</td>
+          <td>2008</td>
+        </tr>
+        <tr>
+          <td>Dive! diver! die!</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>3</td>
+          <td>5</td>
+          <td>45</td>
+          <td>2010</td>
+        </tr>
+        <tr>
+          <td>Black fleet</td>
+          <td>23</td>
+          <td>A</td>
+          <td>3</td>
+          <td>24</td>
+          <td>60</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>Sail to india</td>
+          <td>2</td>
+          <td>F</td>
+          <td>3</td>
+          <td>4</td>
+          <td>60</td>
+          <td>2014</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Pirate_Dice.png" alt="pirate-dice-voyage-on-the-rolling-seas" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/RedNov.jpg" alt="red-november" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/DiveDiverDie.jpg" alt="dive-diver-die" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Black_Fleet.jpg" alt="black-fleet" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/SailIndia.jpg" alt="sail-to-india" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Negotiation
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Let them eat cake</td>
+          <td>-</td>
+          <td>-</td>
+          <td>3</td>
+          <td>6</td>
+          <td>60</td>
+          <td>2016</td>
+        </tr>
+        <tr>
+          <td>Intrigue</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>3</td>
+          <td>5</td>
+          <td>45</td>
+          <td>1994</td>
+        </tr>
+        <tr>
+          <td>Jolly roger: the game of piracy & mutiny</td>
+          <td>-</td>
+          <td>-</td>
+          <td>4</td>
+          <td>10</td>
+          <td>30</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Condottiere</td>
+          <td>1</td>
+          <td>G</td>
+          <td>2</td>
+          <td>6</td>
+          <td>45</td>
+          <td>1995</td>
+        </tr>
+        <tr>
+          <td>Blood bound</td>
+          <td>36</td>
+          <td>B</td>
+          <td>6</td>
+          <td>12</td>
+          <td>30</td>
+          <td>2013</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/EatCake.jpg" alt="let-them-eat-cake" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Intrigue.jpg" alt="intrigue" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/JollyR.png" alt="jolly-roger-the-game-of-piracy-mutiny" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Condottiere.jpg" alt="condottiere" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Blood_Bound.jpg" alt="blood-bound" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Travel
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>The hobbit</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>2</td>
+          <td>5</td>
+          <td>45</td>
+          <td>2010</td>
+        </tr>
+        <tr>
+          <td>Scotland yard</td>
+          <td>29</td>
+          <td>E</td>
+          <td>3</td>
+          <td>6</td>
+          <td>45</td>
+          <td>1983</td>
+        </tr>
+        <tr>
+          <td>Elfenland</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>2</td>
+          <td>6</td>
+          <td>60</td>
+          <td>1998</td>
+        </tr>
+        <tr>
+          <td>Thebes</td>
+          <td>19</td>
+          <td>B</td>
+          <td>2</td>
+          <td>4</td>
+          <td>60</td>
+          <td>2007</td>
+        </tr>
+        <tr>
+          <td>1001 karawane</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>5</td>
+          <td>60</td>
+          <td>2007</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Hobbit.jpg" alt="the-hobbit" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/ScotlandYard.jpg" alt="scotland-yard" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Elfenland.jpg" alt="elfenland" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Thebes.jpg" alt="thebes" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/1001_Karawane.jpg" alt="1001-karawane" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            All related game types
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Cthulhu gloom</td>
+          <td>3</td>
+          <td>D</td>
+          <td>2</td>
+          <td>5</td>
+          <td>60</td>
+          <td>2011</td>
+        </tr>
+        <tr>
+          <td>Gloom: unhappy homes (2nd edition)</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>5</td>
+          <td>60</td>
+          <td>2005</td>
+        </tr>
+        <tr>
+          <td>Gloom: unfortunate expeditions (2nd edition)</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>5</td>
+          <td>60</td>
+          <td>2009</td>
+        </tr>
+        <tr>
+          <td>Gloom: unwelcome guests (2nd edition)</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>5</td>
+          <td>60</td>
+          <td>2006</td>
+        </tr>
+        <tr>
+          <td>The red dragon inn</td>
+          <td>7</td>
+          <td>E</td>
+          <td>2</td>
+          <td>4</td>
+          <td>45</td>
+          <td>2007</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Cthulhu_Gloom.jpg" alt="cthulhu-gloom" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/GloomUH2.jpg" alt="gloom-unhappy-homes" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/GloomUE2.jpg" alt="gloom-unfortunate-expeditions" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/GloomEG2.jpg" alt="gloom-unwelcome-guests" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/The_Red_Dragon_Inn.jpg" alt="the-red-dragon-inn" style="width:18%;">
+  </div>
+</section>
+</body>
+</html>

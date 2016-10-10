@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Recomendation Demo</title>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.box{
+    display: inline-block;
+    width: 18%;
+    background-color: lavender;
+    border: solid 1px silver;
+}
+</style>
+</head>
+<body>
+<h1>recommendations for: Elixir</h1><section class="row">
+  <div class="container">
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Light Strategy
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Duck! duck! safari!</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>5</td>
+          <td>45</td>
+          <td>2004</td>
+        </tr>
+        <tr>
+          <td>Castle panic</td>
+          <td>12</td>
+          <td>C</td>
+          <td>1</td>
+          <td>6</td>
+          <td>60</td>
+          <td>2009</td>
+        </tr>
+        <tr>
+          <td>Rancho</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>6</td>
+          <td>45</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Birds on a wire</td>
+          <td>16</td>
+          <td>A</td>
+          <td>2</td>
+          <td>5</td>
+          <td>-</td>
+          <td>2009</td>
+        </tr>
+        <tr>
+          <td>Gloom (2nd edition)</td>
+          <td>3</td>
+          <td>D</td>
+          <td>2</td>
+          <td>4</td>
+          <td>60</td>
+          <td>2004</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/DuckSafari.jpg" alt="duck-duck-safari" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Castle_Panic.jpg" alt="castle-panic" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Rancho.jpg" alt="rancho" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Birds_on_a_Wire.jpg" alt="birds-on-a-wire" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Gloom2ndEd.jpg" alt="gloom" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Party
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Trivial pursuit: disney edition</td>
+          <td>34</td>
+          <td>B</td>
+          <td>2</td>
+          <td>6</td>
+          <td>60</td>
+          <td>2005</td>
+        </tr>
+        <tr>
+          <td>Quelf</td>
+          <td>36</td>
+          <td>A</td>
+          <td>3</td>
+          <td>8</td>
+          <td>60</td>
+          <td>2005</td>
+        </tr>
+        <tr>
+          <td>All wound up!</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>4</td>
+          <td>60</td>
+          <td>2004</td>
+        </tr>
+        <tr>
+          <td>Stare! junior</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>2</td>
+          <td>10</td>
+          <td>60</td>
+          <td>1972</td>
+        </tr>
+        <tr>
+          <td>The great dalmuti</td>
+          <td>1</td>
+          <td>I</td>
+          <td>4</td>
+          <td>8</td>
+          <td>60</td>
+          <td>1995</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Trivial_Pursuits-Disney.jpg" alt="trivial-pursuit-disney-edition" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Quelf.jpg" alt="quelf" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/All_Wound_Up.jpg" alt="all-wound-up" style="width:18%;">
+    <div class="box"> No image</div>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/The_Great_Dalmuti.jpg" alt="the-great-dalmuti" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Action / Dexterity
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Quelf</td>
+          <td>36</td>
+          <td>A</td>
+          <td>3</td>
+          <td>8</td>
+          <td>60</td>
+          <td>2005</td>
+        </tr>
+        <tr>
+          <td>Dr. shark</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>6</td>
+          <td>45</td>
+          <td>2011</td>
+        </tr>
+        <tr>
+          <td>Bandu</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>8</td>
+          <td>45</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>Bausack</td>
+          <td>33</td>
+          <td>A</td>
+          <td>1</td>
+          <td>10</td>
+          <td>45</td>
+          <td>1987</td>
+        </tr>
+        <tr>
+          <td>Black cannon</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>4</td>
+          <td>30</td>
+          <td>1986</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Quelf.jpg" alt="quelf" style="width:18%;">
+    <div class="box"> No image</div>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Bandu.jpg" alt="bandu" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Bausack.jpg" alt="bausack" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Black_Cannon.jpg" alt="black-cannon" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Card
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Duck! duck! safari!</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>5</td>
+          <td>45</td>
+          <td>2004</td>
+        </tr>
+        <tr>
+          <td>The hobbit: enchanted gold</td>
+          <td>4</td>
+          <td>A</td>
+          <td>2</td>
+          <td>2</td>
+          <td>30</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>Get nuts</td>
+          <td>2</td>
+          <td>K</td>
+          <td>3</td>
+          <td>6</td>
+          <td>45</td>
+          <td>2011</td>
+        </tr>
+        <tr>
+          <td>My word!</td>
+          <td>1</td>
+          <td>J</td>
+          <td>2</td>
+          <td>6</td>
+          <td>30</td>
+          <td>2001</td>
+        </tr>
+        <tr>
+          <td>Velociraptor cannibalism</td>
+          <td>26</td>
+          <td>C</td>
+          <td>3</td>
+          <td>6</td>
+          <td>60</td>
+          <td>2013</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/DuckSafari.jpg" alt="duck-duck-safari" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/HobbitEnchant.jpg" alt="the-hobbit-enchanted-gold" style="width:18%;">
+    <div class="box"> No image</div>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/My_Word.jpg" alt="my-word" style="width:18%;">
+    <div class="box"> No image</div>
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Fantasy
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>The hobbit: enchanted gold</td>
+          <td>4</td>
+          <td>A</td>
+          <td>2</td>
+          <td>2</td>
+          <td>30</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>The hobbit: an unexpected journey</td>
+          <td>4</td>
+          <td>A</td>
+          <td>2</td>
+          <td>4</td>
+          <td>15</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Labyrinth: the card game</td>
+          <td>2</td>
+          <td>L</td>
+          <td>2</td>
+          <td>6</td>
+          <td>30</td>
+          <td>2000</td>
+        </tr>
+        <tr>
+          <td>Hubbly bubbly brew</td>
+          <td>3</td>
+          <td>J</td>
+          <td>2</td>
+          <td>4</td>
+          <td>15</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Monopoly: lord of the rings trilogy edition</td>
+          <td>29</td>
+          <td>A</td>
+          <td>2</td>
+          <td>6</td>
+          <td>60</td>
+          <td>2003</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/HobbitEnchant.jpg" alt="the-hobbit-enchanted-gold" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/The_Hobbit-An_Unexpected_Journey.jpg" alt="the-hobbit-an-unexpected-journey" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Labyrinth-The_Card_Game.jpg" alt="labyrinth-the-card-game" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Hubbly_Bubbly_Brew.jpg" alt="hubbly-bubbly-brew" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Monopoly-LOTR.jpg" alt="monopoly-lord-of-the-rings-trilogy-edition" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Humor
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Quelf</td>
+          <td>36</td>
+          <td>A</td>
+          <td>3</td>
+          <td>8</td>
+          <td>60</td>
+          <td>2005</td>
+        </tr>
+        <tr>
+          <td>Get nuts</td>
+          <td>2</td>
+          <td>K</td>
+          <td>3</td>
+          <td>6</td>
+          <td>45</td>
+          <td>2011</td>
+        </tr>
+        <tr>
+          <td>Velociraptor cannibalism</td>
+          <td>26</td>
+          <td>C</td>
+          <td>3</td>
+          <td>6</td>
+          <td>60</td>
+          <td>2013</td>
+        </tr>
+        <tr>
+          <td>Gloom (2nd edition)</td>
+          <td>3</td>
+          <td>D</td>
+          <td>2</td>
+          <td>4</td>
+          <td>60</td>
+          <td>2004</td>
+        </tr>
+        <tr>
+          <td>Hold your breath!</td>
+          <td>15</td>
+          <td>F</td>
+          <td>2</td>
+          <td>4</td>
+          <td>20</td>
+          <td>2015</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Quelf.jpg" alt="quelf" style="width:18%;">
+    <div class="box"> No image</div>
+    <div class="box"> No image</div>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Gloom2ndEd.jpg" alt="gloom" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/HoldBreath.jpg" alt="hold-your-breath" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            All related game types
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Hold your breath!</td>
+          <td>15</td>
+          <td>F</td>
+          <td>2</td>
+          <td>4</td>
+          <td>20</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>The hobbit: enchanted gold</td>
+          <td>4</td>
+          <td>A</td>
+          <td>2</td>
+          <td>2</td>
+          <td>30</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>Butts away! heroes</td>
+          <td>3</td>
+          <td>B</td>
+          <td>2</td>
+          <td>5</td>
+          <td>30</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Pig panic (aka schweine bammel)</td>
+          <td>1</td>
+          <td>F</td>
+          <td>2</td>
+          <td>8</td>
+          <td>20</td>
+          <td>2008</td>
+        </tr>
+        <tr>
+          <td>Duck! duck! safari!</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>5</td>
+          <td>45</td>
+          <td>2004</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/HoldBreath.jpg" alt="hold-your-breath" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/HobbitEnchant.jpg" alt="the-hobbit-enchanted-gold" style="width:18%;">
+    <div class="box"> No image</div>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Pig_Panic.jpg" alt="pig-panic-aka-schweine-bammel" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/DuckSafari.jpg" alt="duck-duck-safari" style="width:18%;">
+  </div>
+</section>
+</body>
+</html>

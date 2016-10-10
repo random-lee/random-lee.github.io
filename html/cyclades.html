@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Recomendation Demo</title>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.box{
+    display: inline-block;
+    width: 18%;
+    background-color: lavender;
+    border: solid 1px silver;
+}
+</style>
+</head>
+<body>
+<h1>recommendations for: Cyclades</h1><section class="row">
+  <div class="container">
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Strategy
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>London</td>
+          <td>15</td>
+          <td>F</td>
+          <td>2</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2010</td>
+        </tr>
+        <tr>
+          <td>Hawaii</td>
+          <td>20</td>
+          <td>F</td>
+          <td>2</td>
+          <td>5</td>
+          <td>90</td>
+          <td>2011</td>
+        </tr>
+        <tr>
+          <td>Kemet</td>
+          <td>21</td>
+          <td>A</td>
+          <td>2</td>
+          <td>5</td>
+          <td>90</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>A study in emerald (second edition)</td>
+          <td>8</td>
+          <td>B</td>
+          <td>2</td>
+          <td>5</td>
+          <td>90</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Tinners’ trail</td>
+          <td>15</td>
+          <td>F</td>
+          <td>3</td>
+          <td>4</td>
+          <td>75</td>
+          <td>2008</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/London.jpg" alt="london" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Hawaii.jpg" alt="hawaii" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Kemet.jpg" alt="kemet" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/StudyEm.jpg" alt="a-study-in-emerald" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Tinners_Trail.jpg" alt="tinners-trail" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Ancient
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Kemet</td>
+          <td>21</td>
+          <td>A</td>
+          <td>2</td>
+          <td>5</td>
+          <td>90</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Vinci</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>3</td>
+          <td>6</td>
+          <td>90</td>
+          <td>1999</td>
+        </tr>
+        <tr>
+          <td>Egizia</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>4</td>
+          <td>75</td>
+          <td>2009</td>
+        </tr>
+        <tr>
+          <td>Amun-re</td>
+          <td>16</td>
+          <td>C</td>
+          <td>3</td>
+          <td>5</td>
+          <td>90</td>
+          <td>2003</td>
+        </tr>
+        <tr>
+          <td>Chicken caesar</td>
+          <td>17</td>
+          <td>C</td>
+          <td>3</td>
+          <td>6</td>
+          <td>90</td>
+          <td>2012</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Kemet.jpg" alt="kemet" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Vinci.jpg" alt="vinci" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Egizia.jpg" alt="egizia" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Amun-Re.jpg" alt="amun-re" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/ChickenCaesar.jpg" alt="chicken-caesar" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: City Building
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>London</td>
+          <td>15</td>
+          <td>F</td>
+          <td>2</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2010</td>
+        </tr>
+        <tr>
+          <td>Glen more</td>
+          <td>19</td>
+          <td>F</td>
+          <td>2</td>
+          <td>5</td>
+          <td>60</td>
+          <td>2010</td>
+        </tr>
+        <tr>
+          <td>Belfort</td>
+          <td>13</td>
+          <td>D</td>
+          <td>2</td>
+          <td>5</td>
+          <td>120</td>
+          <td>2011</td>
+        </tr>
+        <tr>
+          <td>Above and below</td>
+          <td>21</td>
+          <td>A</td>
+          <td>2</td>
+          <td>4</td>
+          <td>120</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Glass road</td>
+          <td>15</td>
+          <td>B</td>
+          <td>1</td>
+          <td>4</td>
+          <td>75</td>
+          <td>2013</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/London.jpg" alt="london" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Glen_More.jpg" alt="glen-more" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Belfort.jpg" alt="belfort" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/AboveBelow.jpg" alt="above-and-below" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Glass_Road.jpg" alt="glass-road" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Civilization
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>The ancient world</td>
+          <td>21</td>
+          <td>A</td>
+          <td>2</td>
+          <td>4</td>
+          <td>60</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Akrotiri</td>
+          <td>11</td>
+          <td>D</td>
+          <td>2</td>
+          <td>2</td>
+          <td>45</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Roll for the galaxy</td>
+          <td>10</td>
+          <td>A</td>
+          <td>2</td>
+          <td>5</td>
+          <td>45</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>Clockwork wars</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>20th century</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>3</td>
+          <td>5</td>
+          <td>120</td>
+          <td>2010</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/AncientWord.jpg" alt="the-ancient-world" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Akro.png" alt="akrotiri" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Roll4Galaxy.jpg" alt="roll-for-the-galaxy" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/ClockworkWars.jpg" alt="clockwork-wars" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/20th_Century.jpg" alt="20th-century" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Fighting
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Pathfinder adventure card game: rise of the runelords - base set</td>
+          <td>7</td>
+          <td>B</td>
+          <td>1</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2013</td>
+        </tr>
+        <tr>
+          <td>Defenders of the realm</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>1</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2010</td>
+        </tr>
+        <tr>
+          <td>Kemet</td>
+          <td>21</td>
+          <td>A</td>
+          <td>2</td>
+          <td>5</td>
+          <td>90</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>The manhattan project</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>5</td>
+          <td>120</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Bioshock infinite: the siege of columbia</td>
+          <td>4</td>
+          <td>E</td>
+          <td>2</td>
+          <td>4</td>
+          <td>60</td>
+          <td>2013</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Pathfinder.jpg" alt="pathfinder-adventure-card-game-rise-of-the-runelords-base-set" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Defenders_of_the_Realm.jpg" alt="defenders-of-the-realm" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Kemet.jpg" alt="kemet" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Manhattan_Project.jpg" alt="the-manhattan-project" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Bioshock_Infinite.jpg" alt="bioshock-infinite-the-siege-of-columbia" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Miniatures
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Defenders of the realm</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>1</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2010</td>
+        </tr>
+        <tr>
+          <td>Kemet</td>
+          <td>21</td>
+          <td>A</td>
+          <td>2</td>
+          <td>5</td>
+          <td>90</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Yashima: legend of the kami masters</td>
+          <td>5</td>
+          <td>D</td>
+          <td>2</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Fortune and glory: the cliffhanger game</td>
+          <td>ATS</td>
+          <td>ATS</td>
+          <td>1</td>
+          <td>8</td>
+          <td>90</td>
+          <td>2011</td>
+        </tr>
+        <tr>
+          <td>Battlelore (second edition)</td>
+          <td>7</td>
+          <td>B</td>
+          <td>2</td>
+          <td>2</td>
+          <td>90</td>
+          <td>2013</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Defenders_of_the_Realm.jpg" alt="defenders-of-the-realm" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Kemet.jpg" alt="kemet" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Yashima.png" alt="yashima-legend-of-the-kami-masters" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/FortuneGlory.jpg" alt="fortune-and-glory-the-cliffhanger-game" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Battlelore.jpg" alt="battlelore-second-edition" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Mythology
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Kemet</td>
+          <td>21</td>
+          <td>A</td>
+          <td>2</td>
+          <td>5</td>
+          <td>90</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Yashima: legend of the kami masters</td>
+          <td>5</td>
+          <td>D</td>
+          <td>2</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Chaos in the old world</td>
+          <td>6</td>
+          <td>C</td>
+          <td>3</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2009</td>
+        </tr>
+        <tr>
+          <td>Ghost stories: white moon</td>
+          <td>-</td>
+          <td>-</td>
+          <td>1</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2009</td>
+        </tr>
+        <tr>
+          <td>Spirits of the rice paddy</td>
+          <td>20</td>
+          <td>B</td>
+          <td>2</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2016</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Kemet.jpg" alt="kemet" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Yashima.png" alt="yashima-legend-of-the-kami-masters" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Chaos_in_the_Old_World.jpg" alt="chaos-in-the-old-world" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Ghost_Stories_White.jpg" alt="ghost-stories-white-moon" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/SpiritsRice.jpg" alt="spirits-of-the-rice-paddy" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Nautical
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Serenissima (second edition)</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2016</td>
+        </tr>
+        <tr>
+          <td>Catan (5th edition): explorers & pirates expansion</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Navegador</td>
+          <td>16</td>
+          <td>D</td>
+          <td>2</td>
+          <td>5</td>
+          <td>90</td>
+          <td>2010</td>
+        </tr>
+        <tr>
+          <td>Catan (5th edition): explorers & pirates 5-6 player extension</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>6</td>
+          <td>90</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Concordia</td>
+          <td>21</td>
+          <td>B</td>
+          <td>2</td>
+          <td>5</td>
+          <td>100</td>
+          <td>2013</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Serenissima.jpg" alt="serenissima-second-edition" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Catan5Explore.jpg" alt="catan-explorers-pirates-new-edition" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Navegador.jpg" alt="navegador" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Catan5ExploreExp.jpg" alt="catan-explorers-pirates-5-6-player-extension-new-edition" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/ConcordiaRio.jpg" alt="concordia" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            All related game types
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>London</td>
+          <td>15</td>
+          <td>F</td>
+          <td>2</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2010</td>
+        </tr>
+        <tr>
+          <td>Tinners’ trail</td>
+          <td>15</td>
+          <td>F</td>
+          <td>3</td>
+          <td>4</td>
+          <td>75</td>
+          <td>2008</td>
+        </tr>
+        <tr>
+          <td>Pathfinder adventure card game: rise of the runelords - base set</td>
+          <td>7</td>
+          <td>B</td>
+          <td>1</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2013</td>
+        </tr>
+        <tr>
+          <td>Defenders of the realm</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>1</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2010</td>
+        </tr>
+        <tr>
+          <td>The manhattan project: second stage</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>5</td>
+          <td>120</td>
+          <td>2013</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/London.jpg" alt="london" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Tinners_Trail.jpg" alt="tinners-trail" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Pathfinder.jpg" alt="pathfinder-adventure-card-game-rise-of-the-runelords-base-set" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Defenders_of_the_Realm.jpg" alt="defenders-of-the-realm" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Manhattan_2nd_Stage.jpg" alt="the-manhattan-project-second-stage" style="width:18%;">
+  </div>
+</section>
+</body>
+</html>

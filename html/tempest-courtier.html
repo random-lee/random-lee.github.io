@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Recomendation Demo</title>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.box{
+    display: inline-block;
+    width: 18%;
+    background-color: lavender;
+    border: solid 1px silver;
+}
+</style>
+</head>
+<body>
+<h1>recommendations for: Courtier</h1><section class="row">
+  <div class="container">
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Card and Dice
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Revolver</td>
+          <td>ATS</td>
+          <td>ATS</td>
+          <td>2</td>
+          <td>2</td>
+          <td>45</td>
+          <td>2011</td>
+        </tr>
+        <tr>
+          <td>Diamonds</td>
+          <td>3</td>
+          <td>F</td>
+          <td>2</td>
+          <td>6</td>
+          <td>30</td>
+          <td>2014</td>
+        </tr>
+        <tr>
+          <td>The game</td>
+          <td>1</td>
+          <td>B</td>
+          <td>2</td>
+          <td>2</td>
+          <td>20</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Pasha</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>5</td>
+          <td>30</td>
+          <td>2013</td>
+        </tr>
+        <tr>
+          <td>Meteor</td>
+          <td>12</td>
+          <td>F</td>
+          <td>1</td>
+          <td>6</td>
+          <td>15</td>
+          <td>2015</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Revolver.jpg" alt="revolver" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Diamonds.jpg" alt="diamonds" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/thegame.jpg" alt="the-game" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Pasha.jpg" alt="pasha" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Meteor.png" alt="meteor" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Strategy
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Fleet</td>
+          <td>2</td>
+          <td>H</td>
+          <td>2</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Saqqara</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>3</td>
+          <td>5</td>
+          <td>90</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Zhanguo</td>
+          <td>16</td>
+          <td>B</td>
+          <td>2</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Stronghold</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>2</td>
+          <td>4</td>
+          <td>120</td>
+          <td>2009</td>
+        </tr>
+        <tr>
+          <td>Black gold</td>
+          <td>18</td>
+          <td>B</td>
+          <td>2</td>
+          <td>5</td>
+          <td>120</td>
+          <td>2011</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Fleet.jpg" alt="fleet" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Saqqara.jpg" alt="saqqara" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/ZG.jpg" alt="zhanguo" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Stronghold.jpg" alt="stronghold" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Black_Gold.jpg" alt="black-gold" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Bluffing
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Zhanguo</td>
+          <td>16</td>
+          <td>B</td>
+          <td>2</td>
+          <td>4</td>
+          <td>90</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Innuendo!</td>
+          <td>35</td>
+          <td>F</td>
+          <td>2</td>
+          <td>2</td>
+          <td>-</td>
+          <td>1997</td>
+        </tr>
+        <tr>
+          <td>Letter of marque</td>
+          <td>1</td>
+          <td>G</td>
+          <td>3</td>
+          <td>6</td>
+          <td>20</td>
+          <td>2009</td>
+        </tr>
+        <tr>
+          <td>Trust me</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>4</td>
+          <td>45</td>
+          <td>1981</td>
+        </tr>
+        <tr>
+          <td>Pick a dilly</td>
+          <td>32</td>
+          <td>F</td>
+          <td>3</td>
+          <td>7</td>
+          <td>15</td>
+          <td>2005</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/ZG.jpg" alt="zhanguo" style="width:18%;">
+    <div class="box"> No image</div>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Letter_of_Marque.jpg" alt="letter-of-marque" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Trust_Me.jpg" alt="trust-me" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Pick_A_Dilly.jpg" alt="pick-a-dilly" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Card
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Revolver</td>
+          <td>ATS</td>
+          <td>ATS</td>
+          <td>2</td>
+          <td>2</td>
+          <td>45</td>
+          <td>2011</td>
+        </tr>
+        <tr>
+          <td>Xtreme</td>
+          <td>9</td>
+          <td>F</td>
+          <td>3</td>
+          <td>6</td>
+          <td>-</td>
+          <td>2006</td>
+        </tr>
+        <tr>
+          <td>Fact or crap</td>
+          <td>34</td>
+          <td>E</td>
+          <td>3</td>
+          <td>8</td>
+          <td>30</td>
+          <td>2001</td>
+        </tr>
+        <tr>
+          <td>Logo billionaire</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>6</td>
+          <td>45</td>
+          <td>2013</td>
+        </tr>
+        <tr>
+          <td>Goosebumps: shrieks and spiders</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>2</td>
+          <td>4</td>
+          <td>20</td>
+          <td>1995</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Revolver.jpg" alt="revolver" style="width:18%;">
+    <div class="box"> No image</div>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Fact_or_Crap.jpg" alt="fact-or-crap" style="width:18%;">
+    <div class="box"> No image</div>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Goosebumps-Shrieks_and_Spiders.jpg" alt="goosebumps-shrieks-and-spiders" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Deduction
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Who’s who?</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>4</td>
+          <td>10</td>
+          <td>30</td>
+          <td>1989</td>
+        </tr>
+        <tr>
+          <td>Pocket battles</td>
+          <td>2</td>
+          <td>J</td>
+          <td>2</td>
+          <td>2</td>
+          <td>30</td>
+          <td>1931</td>
+        </tr>
+        <tr>
+          <td>Battleship</td>
+          <td>29</td>
+          <td>C</td>
+          <td>2</td>
+          <td>2</td>
+          <td>30</td>
+          <td>1967</td>
+        </tr>
+        <tr>
+          <td>Guess who?</td>
+          <td>29</td>
+          <td>E</td>
+          <td>2</td>
+          <td>2</td>
+          <td>20</td>
+          <td>1979</td>
+        </tr>
+        <tr>
+          <td>Number mastermind</td>
+          <td>28</td>
+          <td>F</td>
+          <td>2</td>
+          <td>2</td>
+          <td>10</td>
+          <td>1976</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Whos_Who.jpg" alt="whos-who" style="width:18%;">
+    <div class="box"> No image</div>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Battleship.jpg" alt="battleship" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Guess_Who.jpg" alt="guess-who" style="width:18%;">
+    <div class="box"> No image</div>
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Fantasy
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Le petit poucet (a.k.a. little thumb)</td>
+          <td>31</td>
+          <td>F</td>
+          <td>3</td>
+          <td>6</td>
+          <td>20</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Geister stunde</td>
+          <td>32</td>
+          <td>D</td>
+          <td>2</td>
+          <td>4</td>
+          <td>20</td>
+          <td>1986</td>
+        </tr>
+        <tr>
+          <td>Treasure hunter</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>6</td>
+          <td>30</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>The lord of the rings: the return of the king</td>
+          <td>4</td>
+          <td>B</td>
+          <td>2</td>
+          <td>6</td>
+          <td>60</td>
+          <td>2004</td>
+        </tr>
+        <tr>
+          <td>Myth</td>
+          <td>ATS</td>
+          <td>ATS</td>
+          <td>2</td>
+          <td>5</td>
+          <td>120</td>
+          <td>2014</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Le_Petit_Poucet.jpg" alt="le-petit-poucet-a.k.a.-little-thumb" style="width:18%;">
+    <div class="box"> No image</div>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/TreasHunt.jpg" alt="treasure-hunter" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Lord_of_the_Rings-Return_of_the_King.jpg" alt="the-lord-of-the-rings-the-return-of-the-king" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Myth.jpg" alt="myth" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            Game type: Humor
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>You cannae push yer granny off the bus</td>
+          <td>30</td>
+          <td>F</td>
+          <td>2</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Movie makers</td>
+          <td>34</td>
+          <td>E</td>
+          <td>2</td>
+          <td>6</td>
+          <td>90</td>
+          <td>2003</td>
+        </tr>
+        <tr>
+          <td>The birthday game</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>4</td>
+          <td>12</td>
+          <td>60</td>
+          <td>2003</td>
+        </tr>
+        <tr>
+          <td>Don’t wake hulk</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>2</td>
+          <td>4</td>
+          <td>20</td>
+          <td>2008</td>
+        </tr>
+        <tr>
+          <td>Don’t wake dad!</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>2</td>
+          <td>4</td>
+          <td>20</td>
+          <td>1992</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Granny.jpg" alt="you-cannae-push-yer-granny-off-the-bus" style="width:18%;">
+    <div class="box"> No image</div>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/The_Birthday_Game.jpg" alt="birthday-game" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Dont_Wake_Hulk.jpg" alt="dont-wake-hulk" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Dont_Wake_Dad.jpg" alt="dont-wake-dad" style="width:18%;">
+    <br><br><br>
+    <table>
+      <thead>
+        <tr>
+          <th scope="row">
+            All related game types
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Column</th>
+          <th>Row</th>
+          <th>MinPlayers</th>
+          <th>MaxPlayers</th>
+          <th>PlayingTime</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Fleet</td>
+          <td>2</td>
+          <td>H</td>
+          <td>2</td>
+          <td>4</td>
+          <td>30</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Saqqara</td>
+          <td>TS</td>
+          <td>TS</td>
+          <td>3</td>
+          <td>5</td>
+          <td>90</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>Stronghold</td>
+          <td>Mobile</td>
+          <td>Mobile</td>
+          <td>2</td>
+          <td>4</td>
+          <td>120</td>
+          <td>2009</td>
+        </tr>
+        <tr>
+          <td>Revolver</td>
+          <td>ATS</td>
+          <td>ATS</td>
+          <td>2</td>
+          <td>2</td>
+          <td>45</td>
+          <td>2011</td>
+        </tr>
+        <tr>
+          <td>Diamonds</td>
+          <td>3</td>
+          <td>F</td>
+          <td>2</td>
+          <td>6</td>
+          <td>30</td>
+          <td>2014</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Fleet.jpg" alt="fleet" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Saqqara.jpg" alt="saqqara" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Stronghold.jpg" alt="stronghold" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Revolver.jpg" alt="revolver" style="width:18%;">
+    <img src="http://www.thirstymeeples.co.uk/images/uploads/games/Diamonds.jpg" alt="diamonds" style="width:18%;">
+  </div>
+</section>
+</body>
+</html>
