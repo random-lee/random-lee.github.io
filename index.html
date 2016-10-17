@@ -1,28 +1,87 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-UK">
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-  <title>Thirst Meeples - Game Catalogue Recomendation Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lee Allison - Volunteer Data Scientist</title>
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
   <link rel="stylesheet" type="text/css" media="all" href="style.css">
-  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-  <script type="text/javascript" src="js/jquery.autocomplete.min.js"></script>
-  <script type="text/javascript" src="js/game-autocomplete.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 
+
 <body>
-  <div id="w">
-    <div id="content">
-      <h1>Search for Game</h1>
-      <p>The data for this demo came from 2 websites: <a href="http://thirstymeeples.co.uk/">Thirsty Meeples</a> and <a href="http://boardgamegeek.com/">Board Game Geek</a> </p>
-      
-      <div id="searchfield">
-        <form><input type="text" name="game" class="biginput" id="autocomplete"></form>
-      </div><!-- @end #searchfield -->
-      
-      <div id="outputbox">
-        <p id="outputcontent">Choose a game and the results will display here.</p>
+
+<ul class="w3-navbar w3-teal">
+  <li><a class="w3-light-blue" href="./index.html">Home</a></li>
+  <li class="w3-dropdown-hover">
+    <a href="#">Projects</a>
+    <div class="w3-dropdown-content w3-light-blue">
+      <a href="http://s2dsheathrowopensensors.altervista.org/">S2DS Project</a>
+      <a href="./game_search.html">Boardgame Recommendations</a>
+    </div>
+  </li>
+  <li class="w3-dropdown-hover">
+    <a href="#">Contact Me</a>
+    <div class="w3-dropdown-content w3-light-blue">
+      <a href="mailto:lee3allison@gmail.com"><i class="fa fa-envelope"></i> Email Me</a>
+      <a href="https://uk.linkedin.com/in/lee3allison"><i class="fa fa-linkedin-square"></i> Linked In</a>
+    </div>
+  </li> 
+</ul>
+
+<img src="graph.png" alt="graph_pic" style="width:80%">
+
+<div class="w3-container w3-center">
+  <h1>About Me</h1>
+  <p>I'm a science to data science (<a href="http://www.s2ds.org/">S2DS</a>) fellow, former CERN particle physicist and genuinely inquisitive person, who is keen to
+utilize insightful and innovative ways to use data. I have been actively working towards this goal by getting involved with
+data science related events, to build my knowledge of the latest developments and to get to know the community, and
+occasionally giving presentations of my work. I'm now looking for data science roles, where I will be challenged by
+unfamiliar ideas, have the chance to share experiences with a range of co-workers and provide results that enable people
+to make smarter decisions.</p>
+</div>
+
+<div class="w3-container w3-center">
+  <h1>Projects</h1>
+  <div class="w3-quarter w3-container">
+    <div class="w3-card-4" style="width:100%">
+      <h3>S2DS Project</h3>
+      <a href="http://s2dsheathrowopensensors.altervista.org/">
+        <img src="CartoonGroup.png" class="w3-opacity w3-hover-opacity-off" alt="meeple" style="width:100%">
+      </a>
+      <div class="w3-container w3-center">
+        <p>Worked with Opensensors to construct and carry out a 5 week exploratory data analysis project using their internet of
+things platform. The project ended up focusing on a network of sensors that were located in the residential areas around
+Heathrow, and monitored air and noise pollution. The main goal was to make the real time noisy data more accessible to
+interested residents.</p>
       </div>
-    </div><!-- @end #content -->
-  </div><!-- @end #w -->
+    </div>
+  </div>
+  
+  <div class="w3-quarter w3-container">
+    <div class="w3-card-4" style="width:100%">
+      <h3>Boardgame Recommendation System</h3>
+      <a href="./game_search.html">
+        <img src="Carcassonne_Miples.jpg" class="w3-opacity w3-hover-opacity-off" alt="meeple" style="width:100%">
+      </a>
+      <div class="w3-container w3-center">
+        <p>Currently working on a boardgame recommendation system based on data obtained from a café and scraping related
+websites. Have shown the first version of the system to café staff and had feedback from them, which has lead to ideas
+for improvements to the next version. The motivation for this project was to answer a personal question, but hopefully the
+resulting system will be useful to both staff and customers, looking to try new boardgames.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--
+<footer class="w3-container w3-display-bottom w3-teal w3-margin-top">
+  <p>Footer information goes here</p>
+</footer>
+-->
+
 </body>
 </html>
+
+
